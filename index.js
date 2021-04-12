@@ -13,12 +13,22 @@ should be a string and NOT the friends array.
 
 function friendsOfCustomer(name){
   //CODE BELOW HERE
+for(var i = 0; i <= customers.length - 1; i++){
 
+
+if(name === customers(i).name){
+console.log(true)
+
+for(var o = 0; o <= customers[i].friends.length - 1; 0++){
+console.log(customers[i].friends[0].name)
+}
+}
+}
 
 
   //CODE ABOVE HERE
 }
-
+console.log(friendsOfCustomer('Shelly Walton'))
 
 
 
